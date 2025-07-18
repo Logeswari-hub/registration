@@ -1,0 +1,60 @@
+body {
+  background-color:rgb(211, 139, 139);
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.form-box {
+  background:whitesmoke;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow:10px gray;
+  width: 700px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: bold;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border:  1px solid #d3cece;
+  border-radius: 5px;
+} 
+
+.gender {
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 5px;
+  background-color: #f9f9f9;
+}
+
+.gender label {
+  display: inline-block;
+  margin-right: 15px;
+  text-align: center;
+}
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #66a573;
+  color: white;
+  border: none;
+  border-radius: 9x;
+  cursor: pointer;
+} 
